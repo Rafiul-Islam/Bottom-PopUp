@@ -31,7 +31,25 @@ main {
 
 .popup.collapsed .popup-content {
   background-color: #ecac0c;
-  height: 100px;
+  height: 200px;
+}
+
+@media (min-width: 576px) {
+  .popup.collapsed .popup-content {
+    height: 160px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .popup.collapsed .popup-content {
+    height: 140px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .popup.collapsed .popup-content {
+    height: 100px !important;
+  }
 }
 
 .popup.expanded .popup-content {
